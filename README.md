@@ -1,7 +1,7 @@
 # Tugas Pertemuan 5 - Pemrograman Web
 
-**Nama:** Sandy Viandito
-**NIM:** 25533974
+**Nama:** Sandy Viandito<br>
+**NIM:** 25533974<br>
 **Kelas:** D3 Teknik Informatika
 
 ## Tentang Program
