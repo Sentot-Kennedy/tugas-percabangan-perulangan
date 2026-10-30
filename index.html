@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Nilai Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Kalkulator Nilai</h1>
+    <p class="subtitle">Masukkan nilai (0 - 100) untuk melihat grade kamu</p>
+
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" placeholder="Contoh: Sentod">
+
+    <label for="tugas">Nilai Tugas</label>
+    <input type="number" id="tugas" placeholder="0 - 100">
+
+    <label for="uts">Nilai UTS</label>
+    <input type="number" id="uts" placeholder="0 - 100">
+
+    <label for="uas">Nilai UAS</label>
+    <input type="number" id="uas" placeholder="0 - 100">
+
+    <div class="tombol">
+      <button id="btnHitung">Hitung</button>
+      <button id="btnReset" class="secondary">Reset</button>
+    </div>
+
+    <p id="pesanError" class="error"></p>
+
+    <section id="hasil" class="hasil hidden">
+      <h2 id="judulHasil"></h2>
+      <div id="grade" class="grade"></div>
+      <p id="keterangan" class="keterangan"></p>
+      <p id="bintang" class="bintang"></p>
+      <p id="rataRata"></p>
+      <ul id="rincian"></ul>
+      <p id="pesan" class="pesan"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
